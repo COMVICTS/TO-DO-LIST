@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>To-Do-List</title>
+</head>
+<body>
+
+    <div class = "header">
+
+        <div class = "left-header">TO-DO-LIST</div>
+        <div class = "right-header">
+            <button id = "add-task" type = "button" class = "button">ADD-TASK</button>
+       
+               
+        </div>
+
+
+    </div>
+
+    <div class = "main-grid">
+        <div class = "col daily">
+         
+            
+        </div>
+        <div class = "col monthly">
+            
+        </div>
+        <div class = "col overall">
+            
+        </div>
+    </div>
+
+
+<div id = "m-background" class = "m-background"></div>
+
+    
+<div id = "modal" class = "modal">
+    <div class = "wrapper">
+    <input class = "entry" type = "text" name = "task-name" placeholder="TASK">
+</div>
+
+<div class = "radio-form">
+    <div class = "wrap">
+    <input class = "radio" type="radio" name="time" value="daily">DAY<br>
+    </div>
+    <div class = "wrap">
+    <input class = "radio" type="radio" name="time" value="monthly">MONTH<br>
+    </div>
+    <div class = "wrap">
+    <input class = "radio" type="radio" name="time" value="life">LIFE<br>
+    </div>
+</div>
+
+<button id = "modal-add" class = "button2" type = "button">ADD</button>
+</div>
+
+    
+</body>
+<script src = "app.js"> </script>
+</html>
